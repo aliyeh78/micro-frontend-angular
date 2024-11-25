@@ -11,7 +11,12 @@ sharedMappings.register(
 module.exports = {
   output: {
     uniqueName: "tatto",
-    publicPath: "auto"
+    publicPath: 'http://localhost:4204/',  // Use the full URL where assets are hosted
+  },
+  devServer: {
+    headers: {
+      'Access-Control-Allow-Origin': '*',
+    },
   },
   optimization: {
     runtimeChunk: false

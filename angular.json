@@ -456,16 +456,11 @@
             "assets": [
               {
                 "glob": "**/*",
-                "input": "projects/tatto/public",
-                "output": "."
-              },
-              {
-                "glob": "**/*",
                 "input": "projects/tatto/src/assets",
                 "output": "assets"
               },
-              "projects/tatto/src/favicon.ico",
-  "projects/tatto/src/assets"
+"projects/tatto/src/assets",
+    "projects/tatto/src/favicon.ico"
             ],
             "styles": [
               "node_modules/primeflex/primeflex.css",

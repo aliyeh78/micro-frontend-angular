@@ -1,0 +1,25 @@
+<section class=" flex bg-tatto">
+  <div class="container">
+    <p-galleria
+    [value]="images"
+    [numVisible]="2"
+    [circular]="true"
+    [showItemNavigators]="true"
+    [showThumbnails]="false"
+    [responsiveOptions]="responsiveOptions"
+    [containerStyle]="{ 'max-width': '640px' }">
+        <ng-template pTemplate="item" let-item>
+            <img [src]="item.itemImageSrc" style="width: 100%; display: block;" />
+        </ng-template>
+</p-galleria>
+
+   <div class="col-4">
+    <h1>
+      Let’s your hand Fly
+    </h1>
+    <h5>
+      Book your appointment today and let our talented team create something beautiful and unforgettable for you. We look forward to serving you!
+    </h5>
+   </div>
+  </div>
+</section>
