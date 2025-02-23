@@ -1,5 +1,0 @@
-{
-	"mfe1": "http://localhost:4201/remoteEntry.js",
-	"tatto": "http://localhost:4204/remoteEntry.js",
-	"login": "http://localhost:4202/remoteEntry.js"
-}
